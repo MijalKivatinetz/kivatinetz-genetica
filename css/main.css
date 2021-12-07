@@ -114,16 +114,12 @@ h2{
 
 }
 div .lnav{
-  margin: 30px;
+  margin: 5px 5px 5px 30px ;
 }
 /*footer*/
-footer div img{
- /* width: 75px;*/
-  height: 75px;
-}
 
 footer{
-  margin: 30px;
+  margin: 5px 30px 5px 30px;
   grid-area: footer;
   display: flex;
   flex-direction: row;
@@ -224,6 +220,11 @@ article ul li{
 
   
 }
+.acordion-estudios{
+
+  margin: 10px;
+}
+
 
 
 .margin20{
@@ -324,6 +325,8 @@ legend{
 
 
 /*==========MEDIA QUERY========*/
+
+/*todas las próximas medias son específicamente del html lab, fue para acomodar el texto en todas las medidas*/
 @media (max-width: 1300px) {
   /*laboratorio*/
   .prop{
@@ -361,10 +364,7 @@ legend{
   
   
 }
-
-
-
-
+/*hasta aqui las media-querys del lab*/
 
 
 
@@ -399,7 +399,7 @@ legend{
 
       /*footer*/
 footer  div p{
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 700;
 }
 footer{
@@ -407,6 +407,11 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+/*nosotros*/
+.contenido-nosotros{
+  display: none;
+ 
 }
 
 }
@@ -459,17 +464,22 @@ footer  div p{
 }
 .contenido-estudios{
   display: none;
+ 
 }
 }
 @media (min-width: 321px) {
+  /*estudios*/
 .acordion-estudios{
   display: none;
-
+}
+}
+@media (min-width: 769px) {
+/*nosotros*/
+.acordeon-nosotros{
+  display: none;
+}
 }
 
-}
-.acordion-estudios{
 
-  margin: 10px;
-}
+
 
