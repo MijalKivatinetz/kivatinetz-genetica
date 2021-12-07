@@ -132,6 +132,9 @@ footer{
 .fflex p{
   color: aliceblue;
 }
+.icons svg{
+  margin: 5px;
+}
 /*=======INDEX======*/
  /*grilla index*/
  .main-container-index{
@@ -316,7 +319,12 @@ footer  div p{
   font-size: 1.5em;
   font-weight: 700;
 }
-
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 }
