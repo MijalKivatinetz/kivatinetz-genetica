@@ -1,0 +1,2 @@
+# kivatinetz-genetica
+entrega boostrap
